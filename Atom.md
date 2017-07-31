@@ -22,7 +22,7 @@ minimap-highlight-selected
 ## Code Reformat
 atom-beautify
 
-### if fail:
+#### if fail:
 https://github.com/modricwang/Personal-Settings
 
 # Article
