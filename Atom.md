@@ -7,7 +7,7 @@ linter-gcc
 gcc-make-run
 
 ## Markdown
-Markdown Preview Plus
+markdown-preview-plus
 
 ## Git
 git-plus
@@ -29,7 +29,7 @@ https://github.com/modricwang/Personal-Settings
 
 http://blog.csdn.net/u010406282/article/details/54314170
 
-# autocomplete
+## autocomplete
 autocomplete-clang
 
 symbols-tree-view
