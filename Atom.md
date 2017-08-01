@@ -25,5 +25,7 @@ atom-beautify
 #### if fail:
 https://github.com/modricwang/Personal-Settings
 
+http://blog.csdn.net/u010406282/article/details/54314170
+
 # Article
 http://blog.csdn.net/qq_36731677/article/details/54609583
