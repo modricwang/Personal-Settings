@@ -1,0 +1,7 @@
+apm config set strict-ssl false
+apm config set http-proxy null
+apm config set http-proxy socks5:127.0.0.1:1080
+apm config get http-proxy
+apm config set https-proxy null
+apm config set https-proxy socks5:127.0.0.1:1080
+apm config get https-proxy
