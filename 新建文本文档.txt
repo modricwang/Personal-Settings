@@ -1,0 +1,18 @@
+rpm -ivh http://soft.91yun.org/ISO/Linux/CentOS/kernel/kernel-3.10.0-229.1.2.el7.x86_64.rpm --force
+
+yum install git
+git clone -b manyuser https://github.com/shadowsocksr-backup/shadowsocksr.git
+
+python server.py -p 8989 -k 19970214AB -m aes-256-cfb -O auth_sha1_v4 -o http_simple
+
+wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/shadowsocks_install/master/ssr-install.sh && bash ssr-install.sh
+
+wget -N --no-check-certificate https://github.com/91yun/serverspeeder/raw/master/serverspeeder.sh && bash serverspeeder.sh
+
+添加用户：ssr adduser
+删除用户：ssr deluser
+启动SSR：ssr start
+停止SSR：ssr stop
+重启SSR：ssr restart
+卸载SSR：ssr uninstall
+更新SSR：ssr update
